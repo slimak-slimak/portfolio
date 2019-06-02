@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="resources/main.css">
     <link rel="stylesheet" href="resources/custom.css">
+    <%@ page contentType="text/html; charset=UTF-8" language="java" %>
 </head>
 <body>
 
@@ -14,17 +15,14 @@
 
     <div id="left" class="full-window">
         <div id="inner-left">
-            <div id="person">
-
-            </div>
-            <div id="menu"
-            <%@include file="menu.jsp" %>
-            </div>
+            <div id="person"><%@include file="person.jsp" %></div>
+            <div id="menu"><%@include file="menu.jsp" %></div>
+            <div id="contact"><%@include file="contact.jsp" %></div>
         </div>
     </div>
 
     <div id="right" class="full-window">
-        <div id="inner-right">
+        <div id="inner-right" class="container">
 
             <div class="tab-content" id="v-pills-tabContent">
             <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">

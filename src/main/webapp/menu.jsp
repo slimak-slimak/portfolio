@@ -1,11 +1,4 @@
-<!doctype html>
-<html lang="pl">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="resources/main.css">
-</head>
-<body>
+<%@ page contentType="text/html; charset=UTF-8" language="java" %>
 <div class="container">
 
         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -20,7 +13,3 @@
             <a class="nav-link" id="v-pills-contact-tab" data-toggle="pill" href="#v-pills-contact" role="tab" aria-controls="v-pills-settings" aria-selected="false">Contact</a>
         </div>
     </div>
-
-
-</body>
-</html>
